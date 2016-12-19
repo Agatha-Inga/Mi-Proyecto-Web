@@ -101,6 +101,11 @@ body, html {
 					font-size: 1.25em;
 					font-weight: normal;
 					margin: 10px 0 0;
+					color: #898989;
+				}
+				.text{
+					color: #898989;
+					font-size: .9em;
 				}
 				.title {
 					font-size: 1.5em;
@@ -109,11 +114,15 @@ body, html {
 				.contentButtons {
 					&-button {
 						border-radius: 20px;
-						border: 1px solid gray;
+						border: 1px solid #898989;
 						background: #fff;
 						padding: 8px 14px;
-						color: gray;
-						font-size: 0.9em;
+						color: #898989;
+						font-size: 0.8em;
+						&:nth-child(2) {
+							background: gray;
+							color: white;
+						}
 					}
 				}
 			}
