@@ -1,0 +1,80 @@
+@media(max-width:991px) {
+	// ABOUT
+	.about{
+		&-contentCols{
+			flex-direction: column;
+			justify-content:center;
+			align-items: center;
+			&-col{
+				width: 50%;
+			}
+		}
+	}
+
+	// WHAT
+	.what{
+		&-contentCols{
+			flex-direction: column;
+			&-col{
+				margin-bottom: 100px;
+			}
+		}
+	}
+
+	// PREMIUM
+	.premium{
+		&-contentCards{
+			&-cards{
+				max-width: 49%;
+			}
+		}
+	}
+
+	// TEAM
+	.team{
+		&-contentCols{
+			flex-wrap: wrap;
+			justify-content: center;
+			&-col{
+				width: 90%;
+				margin-bottom: 30px;
+				&:nthchild(4){
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+}
+
+@media(max-width:767px) {
+		// ABOUT
+	.about{
+		&-contentCols{
+			&-col{
+				width: 64%;
+			}
+		}
+	}
+	// NUMBERS
+	.Numbers{
+		&-contentCols{
+			flex-direction: column;
+		}
+	}
+
+	// FOOTER
+	.footer{
+		flex-direction: column;
+		text-align: center;
+		height: auto;
+
+		&-list{
+			display: block;
+		}
+		&-text{
+		}
+		&-contentSocials{
+		}
+	}
+}
